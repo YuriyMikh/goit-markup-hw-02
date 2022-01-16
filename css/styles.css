@@ -1,0 +1,76 @@
+/* цвет текста1 #212121*/
+
+/* цвет текста2 #FFFFFF*/
+
+/* цвет текста в карточках #757575*/
+
+/* цвет имейла и телефона в футере rgba(255, 255, 255, 0.6)*/
+
+/* цвет лого в хедере #2196F3 и #000000*/
+
+/* цвет лого в футере #2196F3 и #FFFFFF*/
+
+/* бекграунд #E5E5E5*/
+
+body {
+  background-color: #e5e5e5;
+  color: #757575;
+}
+
+/* Сброс точек маркеров */
+ul {
+  list-style: none;
+}
+
+/*Навигация в хедере*/
+.nav-link {
+  color: #212121;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #2196f3;
+}
+
+.nav-link.current {
+  color: #2196f3;
+}
+
+/* Лого в шапке и в футере */
+.logo-start {
+  color: #2196f3;
+}
+
+.header-logo-end {
+  color: #000000;
+}
+
+.footer-logo-end {
+  color: #ffffff;
+}
+
+/* Секция герой */
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: #ffffff;
+}
+
+/* Секции */
+.section-title {
+  color: #212121;
+}
+
+.header {
+  background-color: #ffffff;
+}
+
+.our-team {
+  background-color: #f5f4fa;
+}
+
+.footer {
+  background-color: #2f303a;
+}
