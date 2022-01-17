@@ -20,22 +20,26 @@
 }
 
 /*Глобальный стиль*/
+
 body {
   background-color: var(--primary-white-color);
   color: var(--text-color);
 }
 
 /* Сброс точек маркеров */
+
 ul {
   list-style: none;
 }
 
 /* Сброс подчеркивания у ссылок*/
+
 a {
   text-decoration: none;
 }
 
 /*Навигация в хедере*/
+
 .nav-link {
   color: var(--title-color);
 }
@@ -61,6 +65,7 @@ a {
 }
 
 /* Лого в шапке и в футере */
+
 .logo-start {
   color: var(--accent-blue-color);
 }
@@ -74,6 +79,7 @@ a {
 }
 
 /* Кнопки */
+
 .button {
   background-color: var(--accent-blue-color);
   color: var(--primary-white-color);
@@ -133,6 +139,8 @@ a {
 .section-team {
   background-color: var(--button-filters-section-background-color);
 }
+
+/* Футер */
 
 .section-footer {
   background-color: var(--hero-footer-background-color);
